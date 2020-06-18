@@ -12,7 +12,7 @@ export class ContactComponent implements OnInit {
   public captions: boolean;
 
   constructor() { 
-    this.captions = true;
+    this.captions = false;
   }
 
   ngOnInit(): void {
